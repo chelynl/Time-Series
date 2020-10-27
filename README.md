@@ -26,13 +26,17 @@ We want to explore the daily concentration of ozone (ppm) in a local area using 
 * Forecasted ozone with test data and calculated MAPE/MAE values to evaluate accuracy
 
 ### Part 4: UCM (Unobserved Components Model) Building
-* UCM 
+* Model built using SAS due to its advanced capability for UCM
+* Tested for optimal components to be included in model
+* Components were evaluated based on the error variance equaling 0 for stochasticity
+* External regressors used in ARIMAX were incorporated into UCM
+* Determined Autoregressive Moving Average terms and incorporated into a final UCM model with the training data set
+* Check for stationarity of residuals including any potential trend and/or random walks
+* Tested whether the stationary series exhibited white noise using the Ljung-Box test
+* Forecasted ozone with test data and calculated MAPE/MAE values to evaluate accuracy
 
 ### Part 5: Ensemble Model Building
 * Averaged predicted validation/test sets from each modeling technique to get ensemble validation/test sets
 * Forecasted ozone with test data and calculated MAPE/MAE values to evaluate accuracy
 
 ### Part 6: Data Visualizations
-* Made data visualizations of the following:
-  * Time Plot of the predicted versus actual for the validation and test data
-* Calculated MAPE and MAE values for evaluating accuracy of forecasts with test data
