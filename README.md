@@ -40,3 +40,4 @@ We want to explore the daily concentration of ozone (ppm) in a local area using 
 * Forecasted ozone with test data and calculated MAPE/MAE values to evaluate accuracy
 
 ### Part 6: Data Visualizations
+<img src="images/validation_plot.png" width=400><img src="images/test_plot.png" width=400>
